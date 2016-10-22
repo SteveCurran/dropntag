@@ -1,0 +1,46 @@
+{
+  "id": "5246e0f9-d5f7-47d0-8f3a-92e4fc58c3d1",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5246e0f9-d5f7-47d0-8f3a-92e4fc58c3d1",
+      "group": {
+        "default": "Under Development"
+      },
+      "title": {
+        "default": "droptag"
+      },
+      "description": {
+        "default": "drop and tag"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "droptag"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "droptag.bundle",
+    "internalModuleBaseUrls": [
+      "https://win2012r2devloc:4321/"
+    ],
+    "scriptResources": {
+      "droptag.bundle": {
+        "type": "internal",
+        "path": "dist/droptag.bundle.js"
+      },
+      "droptagStrings": {
+        "defaultPath": "lib/webparts/droptag/loc/en-us.js",
+        "type": "localized",
+        "paths": {}
+      },
+      "@microsoft/sp-client-preview": {
+        "type": "framework",
+        "version": "latest",
+        "failoverPath": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js"
+      }
+    }
+  }
+}

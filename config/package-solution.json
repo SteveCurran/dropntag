@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "droptag-client-side-solution",
+    "id": "a2ffacc0-087c-4eb9-8fd3-0de81e13bea1",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/droptag.spapp"
+  }
+}
